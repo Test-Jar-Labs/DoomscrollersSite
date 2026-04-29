@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.logo {
+  width: 280px;
+  height: auto;
+  display: block;
+}
+
+.tagline {
+  font-family: 'CashMarket-BoldRounded', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff3300;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 28px;
+  letter-spacing: 0.01em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 72px;
+}
+
+.links a {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff3300;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: opacity 0.15s ease;
+}
+
+.links a:hover {
+  opacity: 0.6;
+}

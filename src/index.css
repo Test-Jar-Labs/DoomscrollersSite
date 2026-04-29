@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'CashMarket-BoldRounded';
+  src: url('/uploads/CashMarket-BoldRounded.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
