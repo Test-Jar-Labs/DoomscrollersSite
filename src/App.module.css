@@ -54,6 +54,8 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .links a:hover,
