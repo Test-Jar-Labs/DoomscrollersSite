@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <>
-      <video ref={videoRef} className={styles.bgVideo} src="/uploads/bgvid.webm" autoPlay loop playsInline />
+      <video ref={videoRef} className={styles.bgVideo} src="/uploads/bgvid.webm" loop playsInline />
       <div className={styles.container}>
         <img className={styles.logo} src="/uploads/doomscrollerslogo.png" alt="Doomscrollers" />
         <p className={styles.tagline}>
