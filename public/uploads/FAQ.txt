@@ -1,0 +1,23 @@
+﻿FAQ
+1. What is Doomscrollers?
+Doomscrollers is a social deduction game described as Werewolf, but with your social media feeds. It is a battle of digital profiling where players try to identify whose algorithm is being displayed.
+2. How do I play?
+* Join & Host: Players enter a digital room via a host link.
+* Feed Dump: Everyone has 60 seconds to upload a selection of videos currently appearing on their social media FYP or Explore feeds (e.g., TikTok, Reels).
+* The Rounds: In each round, one video from the "Doomscroller" is revealed. Players have 60 seconds to interrogate each other before voting on whose feed they think it is.
+3. What are the roles?
+There are two primary roles in the game:
+* The Doomscroller (1 Player): Their goal is to survive by convincing the group the feed belongs to someone else.
+* The Grass Touchers (Everyone Else): Their goal is to analyze the videos and identify the Doomscroller before the game ends.
+4. Is my data safe?
+Yes. We prioritize "Transient Processing".
+* No Persistent Storage: We do not save your uploaded videos to a permanent database.
+* Immediate Deletion: All session-specific data—including your "Feed Dump"—is erased immediately when the game ends or the connection is lost.
+
+
+Support & Troubleshooting
+The "Feed Dump" isn't working
+* Timer: Ensure you complete your uploads within the 60-second window.
+* Connection: If your connection is lost, all session data is immediately erased for privacy reasons, and you will need to rejoin the room.
+Technical Contact
+For performance issues or data inquiries, you can reach the developers at Test Jar Labs, Inc. via email at hello@testjarlabs.com.

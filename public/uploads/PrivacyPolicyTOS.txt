@@ -1,0 +1,48 @@
+﻿PRIVACY POLICY
+Last Updated: April 29, 2026
+1. INTRODUCTION
+Welcome to Doomscrollers (the "App"). We are committed to protecting your privacy while facilitating our social deduction gameplay. This Privacy Policy explains how we handle your information during the "digital profiling" process. If you do not agree with these terms, please do not access the App.
+2. INFORMATION WE COLLECT
+2.1. Volatile Gameplay Data
+When you join or host a game, we collect:
+* User ID: A unique identifier generated for your specific game session.
+* Feed Dump: Videos or posts you choose to upload from your social media FYP or Explore feeds for use during the game.
+2.2. Non-Personal and Analytics Data
+We collect information that does not directly identify you to improve performance:
+* Device Information: Including IP address, device type, and operating system.
+* Usage Data: Session length, features accessed, and interactions within the App.
+* Analytics: Aggregated data collected via Google Analytics to understand app behavior.
+3. HOW WE USE YOUR INFORMATION
+3.1. Transient Processing
+All "Feed Dump" content is stored temporarily in the server’s volatile memory (RAM) solely to facilitate the "Reveal" and "Interrogation" rounds.
+3.2. To Improve and Secure Services
+* Analyze usage data to enhance game features.
+* Protect against unauthorized access and monitor for fraudulent activities.
+4. DATA RETENTION AND ERASURE
+4.1. Immediate Deletion
+All session-specific data—including videos, game states, and roles—is erased immediately when the game ends, the server stops, or the connection is lost.
+4.3. No Persistent Storage
+We do not save your uploaded videos or game-specific data to a permanent database.
+5. SECURITY OF YOUR INFORMATION
+We implement security measures such as encryption for data in transit and access controls. However, no method of electronic storage is 100% secure, and we cannot guarantee absolute security.
+________________
+
+
+TERMS OF SERVICE
+1. ACCEPTANCE OF RISK
+Doomscrollers is a social deduction game centered on "digital profiling". By playing, you acknowledge that you are voluntarily sharing a selection of your social media feed with other players in a private room.
+2. USER-GENERATED CONTENT (UGC) LICENSE
+* The Doomscroll Grant: By uploading content to the "Feed Dump," you grant the App a temporary, non-persistent license to stream and display that content to other participants in your current session.
+* Ownership: You retain all ownership rights to your content. We do not store, sell, or use your uploads for any purpose outside the active game session.
+3. PROHIBITED CONTENT
+You are strictly prohibited from uploading:
+* Illegal, sexually explicit, or highly offensive material.
+* Content that violates the privacy or intellectual property of third parties.
+4. DISCLAIMER OF LIABILITY
+The game is designed to test how well you know your friends. We are not responsible for personal disputes, "social media reveals," or damages arising from the content shared by players during the "Interrogation" or "Vote" phases.
+5. GAME RULES AND CONDUCT
+* The Doomscroller: Must attempt to deflect suspicion and survive.
+* The Grass Touchers: Must investigate and identify the Doomscroller.
+* Abuse: We reserve the right to terminate session IDs for players who use the game to harass others.
+6. CONTACT US
+If you have questions regarding these terms, please contact us at hello@testjarlabs.com.
