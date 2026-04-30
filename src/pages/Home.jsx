@@ -10,7 +10,11 @@ function ComingSoonLink({ children }) {
       href="#"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={(e) => { e.preventDefault(); setClicked(c => !c) }}
+      onClick={(e) => {
+        e.preventDefault()
+        setClicked(c => !c)
+        window.gtag?.('event', 'coming_soon_click', { label: children })
+      }}
     >
       {hovered || clicked ? 'not available... yet' : children}
     </a>
@@ -29,6 +33,7 @@ export default function Home() {
     const video = videoRef.current
     video.muted = !video.muted
     setMuted(video.muted)
+    window.gtag?.('event', 'mute_toggle', { muted: video.muted })
   }
 
   return (
@@ -42,8 +47,8 @@ export default function Home() {
         <nav className={styles.links}>
           <ComingSoonLink>download on iOS</ComingSoonLink>
           <ComingSoonLink>download on Google Play</ComingSoonLink>
-          <Link to="/privacy">privacy policy &amp; terms</Link>
-          <Link to="/faq">faq</Link>
+          <Link to="/privacy" onClick={() => window.gtag?.('event', 'nav_click', { label: 'privacy_policy' })}>privacy policy &amp; terms</Link>
+          <Link to="/faq" onClick={() => window.gtag?.('event', 'nav_click', { label: 'faq' })}>faq</Link>
         </nav>
       </div>
       <button className={styles.muteBtn} onClick={toggleMute} aria-label={muted ? 'Unmute' : 'Mute'}>
