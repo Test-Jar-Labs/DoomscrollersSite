@@ -8,11 +8,11 @@ function ComingSoonLink({ children }) {
   return (
     <a
       href="#"
-      onMouseEnter={() => setHovered(true)}
+      onMouseEnter={() => window.matchMedia('(hover: hover)').matches && setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onClick={(e) => {
         e.preventDefault()
-        setClicked(c => !c)
+        if (!window.matchMedia('(hover: hover)').matches) setClicked(c => !c)
         window.gtag?.('event', 'coming_soon_click', { label: children })
       }}
     >
