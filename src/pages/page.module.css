@@ -1,0 +1,73 @@
+.page {
+  max-width: 600px;
+  width: 90%;
+  margin: 60px auto;
+  font-family: 'Space Mono', monospace;
+  color: #ff3300;
+}
+
+.back {
+  display: inline-block;
+  font-size: 12px;
+  color: #ff3300;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  transition: opacity 0.15s ease;
+}
+
+.back:hover {
+  opacity: 0.6;
+}
+
+.page h1 {
+  font-family: 'CashMarket-BoldRounded', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 0.01em;
+}
+
+.page h2 {
+  font-family: 'CashMarket-BoldRounded', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  letter-spacing: 0.01em;
+}
+
+.page p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.meta {
+  font-size: 11px;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+
+.page ul {
+  font-size: 12px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+.page li {
+  margin-bottom: 6px;
+}
+
+.page a {
+  color: #ff3300;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ff3300;
+  opacity: 0.2;
+  margin: 48px 0;
+}
