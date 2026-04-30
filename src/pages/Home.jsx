@@ -26,6 +26,8 @@ export default function Home() {
 
   useEffect(() => {
     setMuted(true)
+    document.body.style.background = '#2E2C47'
+    return () => { document.body.style.background = '' }
   }, [])
 
   function toggleMute() {
