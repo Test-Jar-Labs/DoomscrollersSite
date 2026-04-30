@@ -6,18 +6,17 @@ function ComingSoonLink({ children }) {
   const [hovered, setHovered] = useState(false)
   const [clicked, setClicked] = useState(false)
   return (
-    <a
-      href="#"
+    <button
+      className={styles.comingSoonBtn}
       onMouseEnter={() => window.matchMedia('(hover: hover)').matches && setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={(e) => {
-        e.preventDefault()
+      onClick={() => {
         if (!window.matchMedia('(hover: hover)').matches) setClicked(c => !c)
         window.gtag?.('event', 'coming_soon_click', { label: children })
       }}
     >
       {hovered || clicked ? 'not available... yet' : children}
-    </a>
+    </button>
   )
 }
 

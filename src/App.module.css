@@ -41,7 +41,8 @@
   margin-top: 72px;
 }
 
-.links a {
+.links a,
+.comingSoonBtn {
   font-family: 'Space Mono', monospace;
   font-size: 12px;
   font-weight: 400;
@@ -49,9 +50,14 @@
   text-decoration: none;
   letter-spacing: 0.02em;
   transition: opacity 0.15s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
-.links a:hover {
+.links a:hover,
+.comingSoonBtn:hover {
   opacity: 0.6;
 }
 
