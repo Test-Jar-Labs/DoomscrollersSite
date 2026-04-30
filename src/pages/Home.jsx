@@ -22,15 +22,7 @@ export default function Home() {
   const videoRef = useRef(null)
 
   useEffect(() => {
-    const video = videoRef.current
-    video.muted = true
-    video.play().then(() => {
-      // attempt to unmute after autoplay succeeds
-      video.muted = false
-      setMuted(false)
-    }).catch(() => {
-      // browser blocked audio — stay muted
-    })
+    setMuted(true)
   }, [])
 
   function toggleMute() {
@@ -41,7 +33,7 @@ export default function Home() {
 
   return (
     <>
-      <video ref={videoRef} className={styles.bgVideo} src="/uploads/bgvid.webm" loop playsInline />
+      <video ref={videoRef} className={styles.bgVideo} src="/uploads/bgvid.webm" autoPlay muted loop playsInline />
       <div className={styles.container}>
         <img className={styles.logo} src="/uploads/doomscrollerslogo.png" alt="Doomscrollers" />
         <p className={styles.tagline}>
