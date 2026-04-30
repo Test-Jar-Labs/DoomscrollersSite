@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../App.module.css'
 
@@ -18,8 +18,20 @@ function ComingSoonLink({ children }) {
 }
 
 export default function Home() {
-  const [muted, setMuted] = useState(false)
+  const [muted, setMuted] = useState(true)
   const videoRef = useRef(null)
+
+  useEffect(() => {
+    const video = videoRef.current
+    video.muted = true
+    video.play().then(() => {
+      // attempt to unmute after autoplay succeeds
+      video.muted = false
+      setMuted(false)
+    }).catch(() => {
+      // browser blocked audio — stay muted
+    })
+  }, [])
 
   function toggleMute() {
     const video = videoRef.current
